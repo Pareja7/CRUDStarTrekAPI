@@ -88,7 +88,7 @@ const aliens = {
 
 
 app.get('/api/:aliensName',(req,res)=>{
-  const aliensName= request.params.aliensName.toLowerCase()
+  const aliensName= req.params.aliensName.toLowerCase()
 
 if (aliens[aliensName]){
   res.json(aliens[aliensName])
