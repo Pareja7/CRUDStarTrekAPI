@@ -7,7 +7,7 @@ const PORT = 8000
 const aliens = {
   'humans':{
       'speciesName' : 'Humans',
-      'homeworld': 'Earth',
+      'homeworld': 'Earth and Mars',
       'location': 'Alpha Quadrant',
       'features':'Rounded ears, hair on head and face (sometimes)',
       'interesting fact': 'Founded the United Federation of Planets after first contact with the Vulcans' ,
